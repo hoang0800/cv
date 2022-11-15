@@ -1,0 +1,138 @@
+body {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+* {
+    box-sizing: border-box;
+}
+#me {
+    position: relative;
+}
+
+h1 {
+    color: rgb(113, 113, 175);
+    margin-bottom: 0;
+}
+.infor {
+    display: inline-block;
+}
+.informe {
+    width: 100px;
+    font-weight: bold;
+}
+
+/* ảnh */
+img {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+/* Tiêu đề mục */
+.me {
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(29, 26, 26);
+}
+
+/* Học vấn-Kinh nghiệm-Hoạt động */
+.time {
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+.desc {
+    width: 75%;
+}
+.time-desc1 {
+    display: inline-block;
+}
+.time-desc2 {
+    display: inline-block;
+}
+.time-desc3 {
+    display: inline-block;
+}
+.time-desc4 {
+    display: inline-block;
+}
+.time-desc5 {
+    display: inline-block;
+}
+.time-desc6 {
+    display: inline-block;
+}
+
+.ed {
+    border-bottom: 1px solid beige;
+}
+.exp {
+    border-bottom: 1px solid beige;
+}
+.ac {
+    border-bottom: 1px solid beige;
+}
+
+/* Kĩ năng */
+.language {
+    width: 25%;
+    float: left;
+}
+.lever {
+    width: 75%;
+}
+.sk {
+    display: inline-block;
+}
+.language p {
+    border-bottom: 1px solid beige;
+}
+.lever p {
+    border-bottom: 1px solid beige;
+}
+
+/* Chứng chỉ */
+.year {
+    width: 25%;
+    float: left;
+}
+.diploma {
+    width: 75%;
+}
+.ce {
+    display: inline-block;
+}
+.year p {
+    border-bottom: 1px solid beige;
+}
+.diploma p {
+    border-bottom: 1px solid beige;
+}
+
+/* Sở thích */
+#interests ul {
+    padding-left: 20px;
+}
+
+/* Dự án */
+.pj {
+    margin-bottom: 0;
+}
+.time-pj {
+    margin-top: 0;
+}
+#project ul {
+    padding-left: 20px;
+}
+
+/* Liên hệ */
+ol {
+    padding-left: 20px;
+    border-bottom: 1px solid beige;
+}
+a {
+    text-decoration: none;
+}
